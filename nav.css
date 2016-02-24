@@ -41,7 +41,7 @@ a {
 /* header */
 
 .header {
-      border-bottom: 1px solid #919191;
+    border-bottom: 1px solid #919191;
     box-shadow: 0 1px 5px 0 rgba(0,0,0,0.1);
     background: #fff;
     position: relative;
@@ -90,9 +90,10 @@ a {
 
 .header .menu {
 
-    margin-top: 0px;
+    margin-top: 3px;
     list-style: none;
     float: left;
+
 
   clear: both;
   max-height: 0px;
@@ -117,7 +118,7 @@ header.global .nav-global li, header.global .nav-global div {
   cursor: pointer;
   display: inline-block;
   float: left;
-  padding: 51px 19px;
+  padding: 34px 19px;
   position: relative;
   user-select: none;
 }
