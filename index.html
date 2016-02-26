@@ -23,6 +23,7 @@
 
   <script type="text/javascript" src="/i18n.js"></script>
 <script>
+
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -72,13 +73,7 @@
   </script>
   <script type="text/javascript" src="https://indonesiax.co.id/static/lms/js/require-config.47c3e6832b2a.js"></script>
 
-  
-
-
-  
-
-
-  
+   
 <!-- begin Segment.io -->
 <script type="text/javascript">
   // Asynchronously load Segment.io's analytics.js library
@@ -104,7 +99,7 @@
   <link rel="stylesheet" type="text/css" href="https://indonesiax.co.id/static/css/owl.theme.css" />
 
 <style>
-@media (max-width: 1200px) {
+@media (max-width: 600px) {
 #video_text{width:100%;}
 }
 </style>
@@ -266,18 +261,72 @@
       
 
 
+<!-- css for slide -->
+
+<style type="text/css">
+  .home>header {
+    background-color: #000000;
+    background-image: url("https://indonesiax.co.id/static/images/header.png");
+    min-height: 440px;
+}
+
+.home>header .outer-wrapper {
+    position: relative;
+    margin: 0 auto;
+    padding: 11px;
+    max-width: 1200px;
+}
+
+.home>header .title>hgroup h1 {
+    text-shadow: none;
+    color: #ffffff;
+    font-size: 34px;
+     font-size: 5.1vw;  
+    margin-bottom: 30px;
+
+}
 
 
+.video-container {
+  position:relative;
+  padding-bottom:56.25%;
+  padding-top:10px;
+  height:0;
+  overflow:hidden;
+
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+.video_text1 {
+    position: relative;
+    float: left;
+    width: 52%;
+    padding-top: 445px;
+}
+
+</style>
+
+<!-- css for slide -->
 
 <section class="home">
   <header>
     <div class="outer-wrapper">
       <div class="title">
         <hgroup>
-  <div id='video_video'>
-<iframe width="480" height="280" src="https://www.youtube.com/embed/U0ZCuzLYgV4?controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
-  </div>
-<div id='video_text'>
+  
+
+  <div class="video-container">
+         <iframe width="480" height="280" src="https://www.youtube.com/embed/U0ZCuzLYgV4?controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<div id='video_text1'>
               <h1>Ikuti berbagai kursus menarik dari universitas dan institusi terbaik, secara gratis!</h1>
 <a href='/courses' class='videolink'>Lihat Kursus</a>
 </div>
@@ -492,7 +541,8 @@
   </a>
 </article>
 
-              </li>
+
+       </li>
               <li class="courses-listing-item">
                 
 
@@ -523,8 +573,8 @@
   </a>
 </article>
 
-              </li>
-              <li class="courses-listing-item">
+          </li>
+       <li class="courses-listing-item">
                 
 
 
