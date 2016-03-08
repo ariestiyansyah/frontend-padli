@@ -1,0 +1,78 @@
+h1 {
+    font-size: 20px;
+}
+
+@media all and (max-device-width: 720px){
+    h1 {
+        font-size: 18px;
+    }
+}
+
+@media all and (max-device-width: 640px){
+    h1 {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-device-width: 320px){
+    h1 {
+        font-size: 12px;
+    }
+}
+
+
+.texxxx {
+    font-weight: 80px;
+
+}
+
+
+<section class="home">
+  <header>
+    <div class="outer-wrapper">
+      <div class="title">
+        <hgroup>
+    <div id='video_video'>
+<iframe width="480" height="280" src="https://www.youtube.com/embed/U0ZCuzLYgV4?controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+<div id='video_text'>
+              <h1>Ikuti berbagai kursus menarik dari universitas dan institusi terbaik, secara gratis!</h1>
+<a href='/courses' class='videolink'>Lihat Kursus</a>
+</div>
+        </hgroup>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+
+<section class="home">
+  <header>
+    <div class="outer-wrapper">
+      <div class="title">
+        <hgroup>
+
+
+  <div class="video-container">
+         <iframe width="480" height="280" src="https://www.youtube.com/embed/U0ZCuzLYgV4?controls=0&showinfo=0" frameborder="" allowfullscreen></iframe>
+       
+  </div>
+ <!-- text --> 
+  <div class="text">
+       
+         <h1>Ikuti berbagai kursus menarik dari universitas dan institusi terbaik, secara gratis!</h1>
+<a href='/courses' class='videolink'>Lihat Kursus</a>
+  </div>
+<!-- text -->
+
+        </hgroup>
+
+      </div>
+
+    </div>
+
+  </header>
+  

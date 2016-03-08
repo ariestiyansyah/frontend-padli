@@ -20,6 +20,8 @@
       </script>
 
   <script type="text/javascript" src="/i18n.js"></script>
+
+
 <script>
 
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -60,7 +62,6 @@
     <script type="text/javascript" src="https://indonesiax.co.id/static/js/lms-modules.243b27e03ca4.js" charset="utf-8"></script>
 
 
-
   <script>
     window.baseUrl = "/static/";
     (function (require) {
@@ -90,7 +91,6 @@
   <meta name="path_prefix" content="">
   <meta name="google-site-verification" content="_mipQ4AtZQDNmbtOkwehQDOgCxUUV2fb_C0b6wbiRHY" />
 
-
   <link rel="stylesheet" type="text/css" href="nav.css">
   <link rel="stylesheet" type="text/css" href="https://indonesiax.co.id/static/css/ibl.css" />
   <link rel="stylesheet" type="text/css" href="https://indonesiax.co.id/static/css/owl.carousel.css"/>
@@ -114,29 +114,26 @@
   <div class="window-wrap" dir="ltr">
     <a class="nav-skip" href="#content">Skip to main content</a>
 
-
+<!-- new header -->
   <header class="head" class="global">
-    <nav class="nav-wrapper" aria-label="Global">
+    <nav class="#" aria-label="Global">
 
-
+<!--//* hamburger menu *// -->
       <input class="btn" type="checkbox" id="btn" />
         <label class="icon" for="btn"><span class="navicon"></span></label>
           <h1 class="logo">
             <a href="/">
               <img src="https://indonesiax.co.id/static/images/default-theme/logo.png" alt="IndonesiaX"/>
             </a>
-      </h1>
-
-
+          </h1>
+  
     <ul class="menu">
-
-          <li class="nav-global">
+          <li>
             <a href="#">Finding Courses</a>
           </li>
           <li>
           <a href="#">Tentang IndonesiaX</a>
           </li>
-
     </ul>
 
   </nav>
@@ -249,101 +246,50 @@
 </header>
 
 
-<!-- lama -->
 
 
 
-<div class="content-wrapper" id="content">
-
-
-
-<!-- css for slide -->
+<!-- section 1 -->
 
 <style type="text/css">
-
-
-
-.home>header {
-    background-color: #000000;
-    background-image: url("https://indonesiax.co.id/static/images/header.png");
-    min-height: 440px;
-}
-
-.home>header .outer-wrapper {
-    position: relative;
-    margin: 0 auto;
-    padding: 11px;
-    max-width: 1200px;
-}
-
-.home>header .title>hgroup h1 {
-    text-shadow: none;
-    color: #ffffff;
-    font-size: 34px;
-     font-size: 5.1vw;
-    margin-bottom: 30px;
-
-}
-
-
-.video-container {
-  position:relative;
-  padding-bottom:56.25%;
-  padding-top:10px;
-  height:0;
-  overflow:hidden;
-
-
-}
-
-.video-container iframe, .video-container object, .video-container embed {
-  position:absolute;
-  top:0;
-  left:0;
-  width:480px;
-  height:280px;
-}
-
-.video_text1 {
+  #video_video1 {
     position: relative;
     float: left;
-    width: 120%;
-    padding-top: 445px;
+    padding-bottom: 56.25%;
+    padding-top: 30px; 
+    height: 0; 
+    overflow: hidden;
+    width:100%;
+    height:100%;
+
+}
+#video-video1 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 480px;
+    height: 280px;
 }
 
 </style>
 
-
-
-
-<!-- example
-<section class="home" >
-    <div class="outer-wraper" >
-        <div class="title" >
-
-        </div>
-    </div>
-</div>
-
-<!-- example -->
-
-
-<!-- section 1 -->
 <section class="home">
   <header>
     <div class="outer-wrapper">
       <div class="title">
         <hgroup>
-
-
-  <div class="video-container">
-         <iframe width="480" height="280" src="https://www.youtube.com/embed/U0ZCuzLYgV4?controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+    <div class="video-container">
+    <div>
+<iframe src="https://www.youtube.com/embed/U0ZCuzLYgV4?controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
   </div>
-
-<div class='video_text1'>
+    <!-- mati -->
+<span id='text123'>
               <h1>Ikuti berbagai kursus menarik dari universitas dan institusi terbaik, secara gratis!</h1>
-<a href='/courses' class='videolink'>Lihat Kursus</a>
+<a href='/courses' class='linkvideo'>Lihat Kursus</a>
+</span>
 </div>
+
+<!-- mati -->
         </hgroup>
 
       </div>
@@ -387,7 +333,7 @@
       <div align="center" ><a href='http://www.its.ac.id/' target='_blank'><img style="max-height: 67px; padding: 20px;" src="https://indonesiax.co.id/static/images/partner10.png" alt="Owl Image"></a></div>
     </div>
 
-<div id='logomore'><a href='#'>Lihat Semua &gt;</a></div>
+
 </div>
 
 </div>
