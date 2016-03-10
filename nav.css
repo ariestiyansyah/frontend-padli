@@ -379,7 +379,7 @@ a:link, a:visited {
 }
 
 /* mobile responsive */
-@media only screen and (max-width : 480px) {
+@media all and (max-width : 480px) {
     .video-container iframe {
         width:100%;
         height:100%;
@@ -408,7 +408,7 @@ a:link, a:visited {
 }
 
 /* tablet responsive */
-@media only screen and (min-width : 481px) and (max-width : 1024px) {
+@media all and (min-width : 481px) and (max-width : 1024px) {
    
     .video-container div {
       
