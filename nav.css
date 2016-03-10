@@ -39,6 +39,37 @@ a {
 
 /* ibl css */
 
+/* footer */
+
+#kaki {
+    background-image: url("/static/images/header.png");
+    min-height: 160px;
+    background-size: cover;
+    border-top: 4px solid #80c33f;
+    border-bottom: 4px solid #cccccc;
+}
+
+
+#kakicontent {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.item {
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+    width: 24.8%;
+    position: relative;
+    float: left;
+    height: 75px;
+}
+
+
+/* home header */
+
 .home>header .title>hgroup h1 {
     text-shadow: none;
     color: #ffffff !important ;
@@ -324,7 +355,7 @@ a:link, a:visited {
 }
 
 
-/* 48em = 768px */
+
 
 /* menu responsive */
 @media (min-width: 480px) {
@@ -391,5 +422,62 @@ a:link, a:visited {
 
 }
 
+/* footer */
+
+
+#item {
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+    width: 24.8%;
+    position: relative;
+    float: left;
+    height: 75px;
+}
+
+
+    #footer {
+
+        width: 100%;
+        margin: auto;
+    }
+    .footerFloat {
+  width: 100%;
+    }
+@media all and (min-width: 950px) {
+    #footer {
+
+        width: 980px;
+        margin: auto;
+    } 
+    .footerFloat {
+  width: 25%;
+  float: left;
+  color: #fff;
+    }
+}
+
+#wrapper {
+  background-image: url("https://www.indonesiax.co.id/static/images/header.png");
+  min-height: 160px;
+    background-size: cover;
+    border-top: 4px solid #80c33f;
+    border-bottom: 4px solid #cccccc;
+} 
+.item {
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+    width: 24.8%;
+    position: relative;
+    float: left;
+    height: 75px;
+}
+
+img.img-how-to-use {
+    position: absolute;
+    left: 25px;
+    margin-top: 20px;
+}
 
 
