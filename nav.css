@@ -358,7 +358,7 @@ a:link, a:visited {
 
 
 /* menu responsive */
-@media (min-width: 480px) {
+@media (min-width: 1024px) {
   .head li {
     float: left;
   }
@@ -422,11 +422,16 @@ a:link, a:visited {
     }
    
      .head .logo {
-      
-     
+      position: absolute !important;
+      width: 100% !important;
+      float: none;
       margin: 0 !important;
       margin-top: 10px !important;
-     
+
+ 
+    }
+     .head .icon {
+      z-index: 999 ;
     }
 
 }
