@@ -420,6 +420,10 @@ a:link, a:visited {
       margin-bottom: 20px;
 
     }
+
+     .head ul {
+      width: 100%;
+    }
    
      .head .logo {
       position: absolute !important;
