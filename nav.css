@@ -217,7 +217,7 @@ html, body {
 
 .head .menu {
 
-  margin-top: 3px;
+  margin-top: 8px;
   list-style: none;
   float: left;
  
@@ -381,6 +381,12 @@ a:link, a:visited {
 
 /* mobile responsive */
 @media only screen and (max-width : 480px) {
+
+      .head .menu {
+
+  margin-top: 1px;
+    }
+
     .video-container iframe {
         width:100%;
         height:100%;
@@ -412,6 +418,11 @@ a:link, a:visited {
 /* tablet responsive */
 @media only screen and (min-width : 481px) and (max-width : 1024px) {
    
+    .head .menu {
+
+  margin-top: 1px;
+    }
+
     .video-container div {
       
       float: none !important;
