@@ -485,7 +485,14 @@ a:link, a:visited {
       line-height: 25px;
       padding-right: 10px;
       padding-top: 10px;
-}
+    }
+
+    .garis {
+      border-right: 1px solid red;
+      margin-top: 10px;
+      padding-top: 1px;
+    }
+
 
 @media all and (min-width: 950px) {
     #footer {
@@ -498,6 +505,10 @@ a:link, a:visited {
         float: left;
         color: #fff;
     }
+    .garis {
+        width: 10%;
+        float: left;
+    }
 }
 
 #wrapper {
@@ -506,11 +517,8 @@ a:link, a:visited {
     background-size: cover;
     border-top: 4px solid #80c33f;
     border-bottom: 4px solid #cccccc;
-    border: 5px solid red;
+    border: 1px solid red;
 } 
-
-
-
 
 
 
