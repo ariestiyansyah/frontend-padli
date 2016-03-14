@@ -471,20 +471,20 @@ a:link, a:visited {
         margin: auto;
     }
     .footerFloat {
-  width: 100%;
+      margin-top: 30px;
+      width: 100%;
     }
 
      .iconfooter {
       position: absolute;
-    
-    margin-top: 20px;
+       margin-top: 20px;
     }
-    p.title12345 {
-    text-align: left;
-    padding-left: 75px;
-    line-height: 25px;
-    padding-right: 10px;
-    padding-top: 10px;
+      p.title12345 {
+      text-align: left;
+      padding-left: 75px;
+      line-height: 25px;
+      padding-right: 10px;
+      padding-top: 10px;
 }
 
 @media all and (min-width: 950px) {
@@ -506,7 +506,13 @@ a:link, a:visited {
     background-size: cover;
     border-top: 4px solid #80c33f;
     border-bottom: 4px solid #cccccc;
+    border: 5px solid red;
 } 
+
+
+
+
+
 
 /*
 .item {
