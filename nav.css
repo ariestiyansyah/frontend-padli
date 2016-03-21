@@ -540,10 +540,11 @@ a:link, a:visited {
     border: 1px solid red;
 }
 
+/* untuk text about.html */
 
-  p {
+p {
     padding: 0 !important;
-  
+      
     border: 1px solid red;
 }
 
@@ -587,20 +588,28 @@ h1 {
     }
 
     h1 {
+      padding: 0px !important;
       width: 100%;
+      border: 1px solid red;
     }
 }
 
 @media only screen and (min-width : 481px) and (max-width : 1024px) {
     p {
-         width: 100%;
-    }
+
+        padding-left: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+     }
     .content-wrapper {
         width: 100%;
     
    }
    h1 {
+
+      padding: 0 !important;
       width: 100%;
+
    }
 
 }
