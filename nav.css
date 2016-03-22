@@ -41,6 +41,35 @@ a {
 
 /* footer */
 
+
+/****************************************************
+ *  Push Button khoirul padli
+ *****************************************************/
+.push_button{
+  position:relative;
+  width:80px;
+  height: 0px;
+  color:#FFF;
+  display:block;
+  text-decoration:none;
+  margin:0 auto;
+  border-radius:5px;
+  border: solid 1px #5597dd;
+  background: #1790c7;
+  text-align: center;
+  padding: 20px 30px;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
+  -webkit-box-shadow: 0px 9px 0px #1790c7;
+  -moz-box-shadow: 0px 9px 0px #84261a;
+  box-shadow: 0px 9px 0px #126f9a;
+  float: left !important;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+
 #kaki {
     background-image: url("/static/images/header.png");
     min-height: 160px;
@@ -215,21 +244,17 @@ html, body {
 /* menu */
 
 .head .menu {
-
   margin-top: 8px;
   list-style: none;
-  float: left;
-
-
+  float: left !important;
+  margin-left: -300px;
   max-height: 0px;
   transition: max-height .2s ease-out;
-
-
 }
 
 a:link, a:visited {
     text-decoration: none !important;
-    color: #91A1A9;
+    color: #1478AB;
     font: normal 1em/1em "Open Sans",Verdana,Geneva,sans-serif,sans-serif;
     text-decoration: none;
     -webkit-transition: all 0.1s linear 0s;
@@ -395,8 +420,8 @@ a:link, a:visited {
 @media only screen and (max-width : 480px) {
 
       .head .menu {
-
-  margin-top: 1px;
+        margin-left: 0px;
+        margin-top: 1px;
     }
 
     .video-container iframe {
@@ -435,8 +460,10 @@ a:link, a:visited {
 @media only screen and (min-width : 481px) and (max-width : 1024px) {
 
     .head .menu {
-
-  margin-top: 1px;
+      
+      margin-left: 0px;
+      margin-top: 1px;
+      
     }
 
     .video-container div {
@@ -628,6 +655,17 @@ h1 {
    }
 
 }
+
+
+.dashboard .my-courses .course .details .course-title a, .dashboard .my-courses .course .details .course-title span {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.dashboard .my-courses .course .details .course-title a, .dashboard .my-courses .course .details .course-title span, .find-courses .wrapper-search-context .search-status-label {
+    font-size: 36px;
+    line-height: 53.28px;
+}
+
 
 
 
