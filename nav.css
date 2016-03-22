@@ -106,8 +106,6 @@ a {
 
 
 .video-container {
-
-
   padding-bottom: 20px;
 
   overflow:hidden;
@@ -545,7 +543,7 @@ a:link, a:visited {
 p {
     padding: 0 !important;
       
-    border: 1px solid red;
+    
 }
 
 h1 {
@@ -558,13 +556,12 @@ h1 {
 
 
 .container, section.outside-app, .wrapper-account-settings, .view-profile .profile-self .wrapper-profile-field-account-privacy .u-field-account_privacy, .view-profile .wrapper-profile-sections {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
     margin: 0 auto 0;
     max-width: 1180px;
     min-width: 760px;
     width: 100%;
+    
 }
 
 .content-wrapper {
@@ -584,13 +581,23 @@ h1 {
         width: 100%;
     }
     .content-wrapper {
-    width: 100%;
+    width: 100% !important;
+    margin: 0 !important;
     }
+
+    .container, section.outside-app, .wrapper-account-settings, .view-profile .profile-self .wrapper-profile-field-account-privacy .u-field-account_privacy, .view-profile .wrapper-profile-sections {
+ 
+    max-width: 100%;
+    min-width: 60px;
+    width: 100% !important;
+    margin: 0 !important;
+    
+    }
+
 
     h1 {
       padding: 0px !important;
       width: 100%;
-      border: 1px solid red;
     }
 }
 
@@ -605,6 +612,14 @@ h1 {
         width: 100%;
     
    }
+
+    .container, section.outside-app, .wrapper-account-settings, .view-profile .profile-self .wrapper-profile-field-account-privacy .u-field-account_privacy, .view-profile .wrapper-profile-sections {
+ 
+    max-width: 100%;
+    min-width: 60px;
+    width: 100% !important;
+    margin: 0 !important;
+
    h1 {
 
       padding: 0 !important;
@@ -616,7 +631,7 @@ h1 {
 
 
 
-/*
+/* clas font size
 .item {
     font-size: 24px;
     line-height: 32px;
