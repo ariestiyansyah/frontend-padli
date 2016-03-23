@@ -42,32 +42,16 @@ a {
 /* footer */
 
 
-/****************************************************
- *  Push Button khoirul padli
- *****************************************************/
-.push_button{
-  position:relative;
-  width:80px;
-  height: 0px;
-  color:#FFF;
-  display:block;
-  text-decoration:none;
-  margin:0 auto;
-  border-radius:5px;
-  border: solid 1px #5597dd;
-  background: #1790c7;
-  text-align: center;
-  padding: 20px 30px;
-  -webkit-transition: all 0.1s;
-  -moz-transition: all 0.1s;
-  transition: all 0.1s;
-  -webkit-box-shadow: 0px 9px 0px #1790c7;
-  -moz-box-shadow: 0px 9px 0px #84261a;
-  box-shadow: 0px 9px 0px #126f9a;
-  float: left !important;
-  margin-left: 100px;
-  margin-top: 10px;
+
+section.padli button:active,
+section.padli button.active {
+  background-color: #417cb8;
+  box-shadow: 0 5px #27496d;
+  transform: translateY(5px);
 }
+
+
+
 
 
 #kaki {
