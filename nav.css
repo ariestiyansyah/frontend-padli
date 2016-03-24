@@ -31,26 +31,72 @@ body {
   margin: 0;
   font-family: 'Droid Serif', serif;
   background-color: #f4f4f4;
-}
+  }
 
 a {
   color: #000;
 }
 
-/* ibl css */
 
 /* footer */
 
 
 
-section.padli button:active,
-section.padli button.active {
-  background-color: #417cb8;
-  box-shadow: 0 5px #27496d;
-  transform: translateY(5px);
-}
+        
+        .tombol-register {
+            color: white !important;
+            border-radius: 4px !important;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) !important ;
+        }
 
 
+        .tombol-register {
+            background: #126f9a !important; /* this is a light blue */
+            box-shadow: 0 2px 1px 0 #0a4a67;
+            background: #126f9a;
+            color: #fff;
+            float: right !important;
+            margin-top: 20px;
+            margin-left: 5px !important ;
+            list-style: none;
+            margin-right: 5px;
+
+
+            border: none;
+            padding: -13px 20px;
+            text-align: center;
+            text-shadow: none;
+            letter-spacing: 0;
+
+          }
+
+           .tombol-login {
+            color: white !important;
+            border-radius: 4px !important;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) !important ;
+        }
+
+
+        .tombol-login {
+            background: #126f9a !important; /* this is a light blue */
+            box-shadow: 0 2px 1px 0 #0a4a67;
+            background: #126f9a;
+            color: #fff;
+            float: right !important;
+            margin-top: 20px;
+            margin-left: 5px !important ;
+            list-style: none;
+            margin-right: 400px !important ;
+
+
+            border: none;
+            padding: -13px 20px;
+            text-align: center;
+            text-shadow: none;
+            letter-spacing: 0;
+
+          }
+        
 
 
 
@@ -376,10 +422,69 @@ a:link, a:visited {
 }
 
 
+/*  bagian tombol navigation bar  */
+
+  .tombol-register {
+            color: white !important;
+            border-radius: 4px !important;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) !important ;
+        }
+
+
+  .tombol-register {
+            background: #126f9a !important; /* this is a light blue */
+            box-shadow: 0 2px 1px 0 #0a4a67;
+            background: #126f9a;
+            color: #fff;
+            float: right !important;
+            margin-top: 20px;
+            margin-left: 5px !important ;
+            list-style: none;
+            margin-right: 5px;
+
+
+            border: none;
+            padding: -13px 20px;
+            text-align: center;
+            text-shadow: none;
+            letter-spacing: 0;
+
+          }
+.tombol-login {
+            color: white !important;
+            border-radius: 4px !important;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) !important ;
+        }
+
+
+.tombol-login {
+            background: #126f9a !important; /* this is a light blue */
+            box-shadow: 0 2px 1px 0 #0a4a67;
+            background: #126f9a;
+            color: #fff;
+            float: right !important;
+            margin-top: 20px;
+            margin-left: 5px !important ;
+            list-style: none;
+            margin-right: 400px !important ;
+
+
+            border: none;
+            padding: -13px 20px;
+            text-align: center;
+            text-shadow: none;
+            letter-spacing: 0;
+
+          }
+
+
+
 
 
 /* menu responsive */
 @media (min-width: 1025px) {
+  
+
   .head li {
     float: left;
   }
@@ -402,7 +507,17 @@ a:link, a:visited {
 
 /* mobile responsive */
 @media only screen and (max-width : 480px) {
+  .tombol-register {
+      
+      border: 1px solid red;
 
+  }
+  .tombol-login {
+      margin-right: 500px;
+      padding-right: 100px;
+      float: right;
+      border: 1px solid blue;
+  }
       .head .menu {
         margin-left: 0px;
         margin-top: 1px;
