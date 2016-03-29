@@ -39,11 +39,7 @@ a {
 
 
 /* footer */
-
-
-
-  
-
+ 
 
 
 #kaki {
@@ -157,8 +153,6 @@ a {
 }
 
 /* slide akhir */
-
-
 
 html, body {
     font-family: "Open Sans",Verdana,Geneva,sans-serif,sans-serif;
@@ -429,18 +423,7 @@ a:link, a:visited {
 /* menu responsive */
 @media (min-width: 1025px) {
   
-  .tombol-register {
-      float: left;
-      border: 1px solid red;
-
-  }
-  .tombol-login {
-      margin-right: 500px;
-      padding-top: 0px;
-      float: center;
-      margin-right: 800px;
-      border: 1px solid blue;
-  }
+  
   .head li {
     float: left;
   }
@@ -461,20 +444,19 @@ a:link, a:visited {
   }
 }
 
+
+
+
 /* mobile responsive */
 @media only screen and (max-width : 480px) {
-  .tombol-register {
-      float: center;     
-  }
+    .tombol-register {
+      float: right !important ; 
+      border: 1px solid red;
+    }
 
    .tombol-login {
-      margin-right: 500px;
-      padding-top: 0px;
-      float: center;
-      margin-right: -1000px;
-      border: 1px solid red;
-      margin-top: 3px
-      margin-left: -500px;
+      float: left !important ;
+
     }
       .head .menu {
         margin-left: 0px;
@@ -502,6 +484,7 @@ a:link, a:visited {
 
 
     }
+
     .head .icon {
       z-index: 999 ;
     }
@@ -516,12 +499,14 @@ a:link, a:visited {
 /* tablet responsive */
 @media only screen and (min-width : 481px) and (max-width : 1024px) {
 
-    .tombol-login {
-      margin-right: 500px;
-      padding-top: 0px;
-      border: 1px solid blue;
-      margin-left: 10px;
+     .tombol-register {
+      float: left !important ;    
+  }
 
+   .tombol-login {
+      float: left !important ;
+
+      
     }
 
     .head .menu {
