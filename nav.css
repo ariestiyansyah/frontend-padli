@@ -221,7 +221,7 @@ html, body {
 
 a:link, a:visited {
     text-decoration: none !important;
-    color: #1478AB;
+    color: #36383A;
     font: normal 1em/1em "Open Sans",Verdana,Geneva,sans-serif,sans-serif;
     text-decoration: none;
     -webkit-transition: all 0.1s linear 0s;
@@ -457,13 +457,13 @@ a:link, a:visited {
 		display: block !important;
 	}
     .tombol-register {
-      position: absolute !important ;
-      float: left;  
+      margin-top: -43px !important ;
+      float: right;
     }
 
    .tombol-login {
-      float: left !important ;
-
+      position: absolute;
+      float: none;
     }
       .head .menu {
         margin-left: 0px;
@@ -529,21 +529,15 @@ a:link, a:visited {
   .visible-xs{
     display: block !important;
   }
-    .tombol-register {
-      position: absolute !important ;
-      float: left;  
-    }
-
      .tombol-register {
-      float: left !important ;    
-  }
+      margin-top: -30px !important ;
+      float: right;
+    }
 
    .tombol-login {
-      float: left !important ;
-
-      
+      position: absolute;
+      float: none;
     }
-
     .head .menu {
       
       margin-left: 0px;
