@@ -421,7 +421,8 @@ a:link, a:visited {
   }
   
   .head .logo {
-    position: relative;
+    position: relative !important;
+    margin-left: 380px;
 
   }
   .head li {
@@ -491,7 +492,7 @@ a:link, a:visited {
     .head .logo {
       position: absolute !important;
       width: 100% !important;
-      float: none;
+      float: left;
       margin: 0 !important;
       margin-top: 10px !important;
 
