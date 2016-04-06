@@ -451,6 +451,9 @@ a:link, a:visited {
 
 /* mobile responsive */
 @media only screen and (max-width : 480px) {
+    body{
+ overflow-x:hidden;
+}
 
 	.hidden-small{
 		display: none !important;
@@ -511,6 +514,10 @@ a:link, a:visited {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 819px) {
+
+    body{
+ overflow-x:hidden;
+}
   .menu hidden-small visible-big {
     display: none !important ;
   }
@@ -525,6 +532,10 @@ a:link, a:visited {
 /* tablet responsive */
 @media only screen and (min-width : 481px) and (max-width : 1024px) {
 
+    body{
+ overflow-x:hidden;
+}
+  
   .hidden-small{
     display: none !important;
   }
@@ -575,7 +586,22 @@ a:link, a:visited {
 
 /* footer */
 
+@media only screen and (min-width: 998px) and (max-width: 1644px)  {
+  .tombol-register {
+     
+      margin-top:20px;
+      margin-right:100px !important ;
+    }
 
+   .tombol-login {
+     
+    }
+    .head .logo {
+      
+      margin-left: 100px !important;
+    }
+}
+ 
 #item {
     font-size: 24px;
     line-height: 32px;
