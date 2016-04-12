@@ -371,15 +371,20 @@ a:link, a:visited {
           }
 
 
-/* responsive owl */
-
-@media only screen and (min-width: 480px) and (max-width:1180px ) {
-
-  #biju {
-    border: 1px solid red;
+          .opo {
+  
+    margin-left: 20px !important ;
+    margin-right: 20px !important;
+    
   }
 
+/* responsive owl corosuel */
+@media only sreen and (min-width: 481px) and (max-width: 701px) {
+  #bijo {
+    border: 1px solid !important ;
+  }
 }
+
 
 
 /* menu responsive */
