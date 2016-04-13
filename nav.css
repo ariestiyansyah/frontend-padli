@@ -420,6 +420,7 @@ a:link, a:visited {
 @media only screen and (max-width : 480px) {
 
   .cd-top {
+  z-index: 99999 !important;
   display: inline-block;
   height: 40px;
   width: 40px;
@@ -431,7 +432,7 @@ a:link, a:visited {
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
-  background: #0078b0 url(img/cd-top-arrow.svg) no-repeat center 50%;
+  background: #0078b0 url(cd-top-arrow.svg) no-repeat center 50%;
   visibility: hidden;
   opacity: 0;
   -webkit-transition: opacity .3s 0s, visibility 0s .3s;
