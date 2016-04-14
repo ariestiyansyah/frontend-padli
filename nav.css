@@ -42,6 +42,7 @@ a {
  
 
 
+
 .home>header .title>hgroup h1 {
     text-shadow: none;
     color: #ffffff !important ;
@@ -419,6 +420,12 @@ a:link, a:visited {
 /* mobile responsive */
 @media only screen and (max-width : 480px) {
 
+  #khoirul {
+    float: right;
+    margin-right: 0px !important ;
+    margin-top: 0px !important ;
+  }
+
   .cd-top {
     z-index: 99999 !important;
   display: inline-block;
@@ -432,7 +439,7 @@ a:link, a:visited {
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
-  background: #0078b0 url(cd-top-arrow.svg) no-repeat center 50%;
+  background: #0078b0 url(img/cd-top-arrow.svg) no-repeat center 50%;
   visibility: hidden;
   opacity: 0;
   -webkit-transition: opacity .3s 0s, visibility 0s .3s;
@@ -571,6 +578,12 @@ a:link, a:visited {
 /* tablet responsive */
 @media only screen and (min-width : 481px) and (max-width : 1024px) {
 
+   #khoirul {
+    float: right;
+    margin-right: 0px !important ;
+    margin-top: 0px !important ;
+  }
+
   #logo-biji {
      width:200px; /* you can use % */
     height: auto;
@@ -652,6 +665,13 @@ a:link, a:visited {
      
       margin-top:20px;
       margin-right:100px !important ;
+    
+    }
+
+    #khoirul {
+      margin-top:20px;
+      margin-right:100px !important ;
+      
     }
 
    .tombol-login {
