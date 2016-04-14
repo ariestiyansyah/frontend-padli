@@ -215,12 +215,12 @@ a:link, a:visited {
 
 .head .icon .navicon {
 
-    background: #333;
+    background: #167ac6;
     display: block;
     height: 3px;
     position: relative;
     transition: background .2s ease-out;
-    width: 23px;
+    width: 30px;
 }
 
 
@@ -230,7 +230,7 @@ a:link, a:visited {
 
 .head .icon .navicon:before,
 .head .icon .navicon:after {
-  background: #333;
+  background: #167ac6;
   content: '';
   display: block;
   height: 100%;
@@ -240,11 +240,11 @@ a:link, a:visited {
 }
 
 .head .icon .navicon:before {
-  top: 5px;
+  top: 6px;
 }
 
 .head .icon .navicon:after {
-  top: -5px;
+  top: -6px;
 }
 
 
@@ -420,7 +420,7 @@ a:link, a:visited {
 @media only screen and (max-width : 480px) {
 
   .cd-top {
-  z-index: 99999 !important;
+    z-index: 99999 !important;
   display: inline-block;
   height: 40px;
   width: 40px;
@@ -432,7 +432,7 @@ a:link, a:visited {
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
-  background: #0078b0 url(cd-top-arrow.svg) no-repeat center 50%;
+  background: #0078b0 url(img/cd-top-arrow.svg) no-repeat center 50%;
   visibility: hidden;
   opacity: 0;
   -webkit-transition: opacity .3s 0s, visibility 0s .3s;
@@ -571,6 +571,11 @@ a:link, a:visited {
 /* tablet responsive */
 @media only screen and (min-width : 481px) and (max-width : 1024px) {
 
+  #logo-biji {
+     width:200px; /* you can use % */
+    height: auto;
+  }
+
   h1 {
       
       margin: 0px !important ;
@@ -632,7 +637,7 @@ a:link, a:visited {
       float: none;
       margin: 0 !important;
       margin-top: 10px !important;
-      
+     
     }
      .head .icon {
       z-index: 999 ;
