@@ -171,8 +171,8 @@ html, body {
   margin-top: 10px;
   list-style: none;
   float: left !important;
-  margin-left: -300px;
-  max-height: 0px;
+  margin-left: -300px; 
+  max-height: 0px; 
   transition: max-height .2s ease-out;
 }
 
@@ -257,7 +257,7 @@ a:link, a:visited {
 }
 
 .head .btn:checked ~ .menu {
-  max-height: 240px;
+  max-height: 500px;
 }
 
 .head .btn:checked ~ .menu-icon .navicon {
@@ -402,7 +402,7 @@ a:link, a:visited {
   .head .menu {
     clear: none;
     float: left;
-    max-height: none;
+    max-height: none ;
   }
   .head .icon {
     display:none;
@@ -439,7 +439,7 @@ a:link, a:visited {
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
-  background: #0078b0 url(img/cd-top-arrow.svg) no-repeat center 50%;
+  background: #0078b0 url(cd-top-arrow.svg) no-repeat center 50%;
   visibility: hidden;
   opacity: 0;
   -webkit-transition: opacity .3s 0s, visibility 0s .3s;
