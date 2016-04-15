@@ -104,7 +104,7 @@
           </h1>
   
           
- <ul class="menu visible-xs hidden-big">
+ <ul class="menu visible-xs hidden-big" >
 
           <li class="kanal visible-big" style="border-bottom:1px solid #8a8c8f;">
             <a href="#">LIHAT KURSUS</a>
@@ -208,11 +208,9 @@ div.submenu
 
 .dropdown  li a {
 
-
-   background: #fff;
     border-radius: 4px;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.3);
-    border: 1px solid #c8c8c8;
+    
   
     margin-top: 0;
     padding: 5px 10px;
@@ -221,35 +219,29 @@ div.submenu
     top: 37px;
     min-width: 120px;
     z-index: 3;
+
+   
+
+    background: transparent;
+    border-top: 6px dotted transparent !important ;
+    border-right: 6px solid transparent;
+    border-bottom: 6px dotted transparent !important ;
+    border-left: 6px solid transparent;
+
+    box-shadow: 1px 0 0 0 #c8c8c8,0 -1px 0 0 #c8c8c8;
+    
+
 }
 
 .dropdown li a:hover{
     background:#155FB0;
     color: #FFFFFF;
     text-decoration: none;
+
+
     
 }
 
-.dropdown::before {
-    background: transparent;
-    border-top: 6px solid #fcfcfc;
-    border-right: 6px solid #fcfcfc;
-    border-bottom: 6px solid transparent;
-    border-left: 6px solid transparent;
-    box-shadow: 1px 0 0 0 #c8c8c8,0 -1px 0 0 #c8c8c8;
-    content: "";
-    display: block;
-    height: 0px;
-    position: absolute;
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    right: 7px;
-    top: -5px;
-    width: 0px;
-}
 
 a.account {
     font-size: 11px;
@@ -263,17 +255,21 @@ a.account {
     width: 163px;
     margin: -4px 0 0 -12px;
     text-decoration: none;
-    background: url(icons/arrow.png) 104px 14px no-repeat;
+    background: url(arrow.png) 104px 14px no-repeat;
     cursor: pointer;
 }
 .root
-{
-    border: 1px solid transparent;
+{   
+
+
+    
+
+    border: 1px solid red !important ;
+
     background: #fff;
     border-radius: 4px;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.3);
-    border: 1px solid #c8c8c8;
-  
+   
     margin-top: 0;
     padding: 5px 10px;
    
@@ -286,7 +282,7 @@ a.account {
     margin-top: -32px;
     padding: 5px 10px;
     position: absolute;
-    right: 0px;
+    right: 10px;
     top: 37px;
     min-width: 120px;
     z-index: 3;
@@ -295,7 +291,7 @@ a.account {
 }
 
 </style>
-  <div id="khoirul" style="float: right;margin-right: 300px;margin-top: 20px" >
+  <div id="khoirul" style="float: right;margin-right: 400px;margin-top: 20px" >
   
   <div class="dropdown hidden-small visible-big ">
   <a class="account" >
@@ -309,7 +305,7 @@ a.account {
   <div class="submenu" style="display: none; ">
 
     <ul class="root">
-<li >
+    <li >
         <a href="#Dashboard" >Dashboard</a>
       </li>
 
@@ -319,12 +315,12 @@ a.account {
       </li>
      <li >
 
-        <a href="#settings">Account</a>
+        <a href="#Account">Account</a>
       </li>
      
 
       <li>
-        <a href="#feedback">Sertifikat</a>
+        <a href="#Sertifikat">Sertifikat</a>
       </li>
 
 
